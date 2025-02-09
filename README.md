@@ -21,7 +21,7 @@ import CryptoCalculator from 'crypto-investment-calculator';
 const App = () => {
   return (
     <div>
-      <CryptoCalculator />
+      <CryptoCalculator onChange={handleCalculatorChange} />
     </div>
   );
 };
@@ -43,7 +43,7 @@ export default App;
 
 ### `CryptoCalculator`
 
-This component does not require any props; all inputs are handled within the component itself.
+This component only have one optional onChange prop; all inputs are handled within the component itself.
 
 ## Development
 
@@ -74,4 +74,4 @@ Muhammad Hassan Sohail
 - **npm Repository**: [npm Profile](https://www.npmjs.com/~hassan-sohail)
 - **GitHub**: [crypto-investment-calculator](https://github.com/M-Hassan-Malik/crypto-investment-calculator)
 - **LinkedIn Profile**: [Muhammad Hassan Sohail](https://www.linkedin.com/in/muhammad-hassan-sohail/)
-- **Portfolio Website**: [www.muhammadhassansohail.com](https://codehassan.vercel.app/)
+- **Portfolio Website**: [Code-Hassan](https://codehassan.vercel.app/)
