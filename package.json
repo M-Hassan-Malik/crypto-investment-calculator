@@ -13,7 +13,7 @@
     "crypto-investment-calculator"
   ],
   "author": "Muhamamd Hassan Sohail",
-  "license": "ISC",
+  "license": "MSI",
   "devDependencies": {
     "@types/react": "^18.3.12",
     "react": "^18.3.1",

@@ -1,2 +1,2 @@
-import CryptoInvestmentCalculator from "./components/CryptoInvestmentCalculator";
-export default CryptoInvestmentCalculator;
+import CryptoCalculator from "./components/CryptoInvestmentCalculator";
+export default CryptoCalculator;
